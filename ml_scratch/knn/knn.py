@@ -16,6 +16,8 @@ k = 7
 train = train.sort_values('distance', ascending=True)
 knn = list(train.head(k).species)
 
+print(knn)
+
 from statistics import mode
 
 
